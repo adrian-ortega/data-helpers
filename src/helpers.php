@@ -4,7 +4,7 @@
  * Helper functions derrived from Laravel
  *
  * @author Adrian Ortega
- * @repo https://github.com/adrian-ortega/data-helpers.git
+ * @repo https://github.com/adrian-ortega/data-helpers.github
  */
 
 if (!function_exists('value')) {
