@@ -3,7 +3,8 @@
 /**
  * Helper functions derrived from Laravel
  *
- * @repo 
+ * @author Adrian Ortega
+ * @repo https://github.com/adrian-ortega/data-helpers.git
  */
 
 if (!function_exists('value')) {
