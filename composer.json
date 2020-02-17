@@ -1,5 +1,5 @@
 {
-  "name": "AO Data Helpers",
+  "name": "adrian-ortega/data-helpers",
   "type": "library",
   "keywords": ["data", "array", "helpers"],
   "description": "Dependency agnostic data helpers a la Laravel",
