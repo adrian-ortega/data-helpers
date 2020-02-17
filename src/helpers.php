@@ -1,5 +1,4 @@
 <?php
-
 /**
  * Helper functions derrived from Laravel
  *
@@ -24,7 +23,7 @@ if (!function_exists('value')) {
 if (!function_exists('array_is_accessible')) {
 
     /**
-     * Checks to see if 
+     * Checks to see if
      * @param array $value
      *
      * @return bool
@@ -127,13 +126,13 @@ if (!function_exists('data_exists')) {
      * Alias for array_value_exists with a parameter reversal
      * @param ArrayAccess|array $array
      * @param string $key
+     * @return bool
      */
     function data_exists($array, $key) {
-        return array_value_exists($key, $array);
+        return array_value_exists($array, $key);
     }
 
 }
-
 
 if (!function_exists('pluck_value_from_item_by_key')) {
 

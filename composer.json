@@ -1,15 +1,22 @@
 {
-	"name": "AO Data Helpers",
-	"type": "library",
-	"description": "Dependency agnostic data helpers a la Laravel",
-	"homepage": "https://adrianortega.dev",
-	"license": "MIT",
-    "authors": [
-        {
-            "name": "Adrian Ortega",
-            "email": "hello@adrianortega.dev",
-            "homepage": "https://adrianortega.dev",
-            "role": "Developer"
-        }
+  "name": "AO Data Helpers",
+  "type": "library",
+  "keywords": ["data", "array", "helpers"],
+  "description": "Dependency agnostic data helpers a la Laravel",
+  "minimum-stability": "dev",
+  "homepage": "https://adrianortega.dev",
+  "license": "MIT",
+  "autoload": {
+    "files": [
+      "src/helpers.php"
     ]
+  },
+  "authors": [
+    {
+      "name": "Adrian Ortega",
+      "email": "hello@adrianortega.dev",
+      "homepage": "https://adrianortega.dev",
+      "role": "Developer"
+    }
+  ]
 }
